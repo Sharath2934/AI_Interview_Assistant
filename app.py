@@ -14,9 +14,9 @@ except (keyError, FileNotFoundError):
     st.error('GROQ_API_KEY is missing. Add it to Streamlit Cloud App setting')
     st.stop()
     role = st.selectbox("Select Job Role",[
-                                            "Python Developer",
-                                            "Java Developer",
-                                            "Data Analyst",    
-                                            "Machine learning Engineer",
-                                            "HR Executive"
-                                             ])
+                        "Python Developer",
+                        "Java Developer",
+                        "Data Analyst",    
+                        "Machine learning Engineer",
+                        "HR Executive"
+                        ])
