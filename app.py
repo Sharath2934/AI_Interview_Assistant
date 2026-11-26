@@ -20,7 +20,7 @@ except (keyError, FileNotFoundError):
                         "Machine learning Engineer",
                         "HR Executive"
                         ])
- if st.button("Generate Interview Questions"):
+     if st.button("Generate Interview Questions"):
         prompt = "Generate 5 interview question for the role of" + role
         response = client.chat.completion.create(
             model="openai/gpt-oss-120b",
